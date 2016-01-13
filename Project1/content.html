@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Assignment 1</title>
-    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
 
@@ -68,6 +68,75 @@
         </tr>
     </tfoot>
 </table>
+
+<ol>
+    <li>First list element</li>
+    <li>Second list element</li>
+    <li>Third list element</li>
+</ol>
+
+<div class="outer-content">
+    <div class="inner-content">
+        <p class="inner-content-text">Something... something... content</p>
+    </div>
+</div>
+<div id="forms">
+    <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+        <fieldset>
+            <legend>Some GET Data</legend>
+            <fieldset class="form-input">
+                <label>Text here:
+                    <input type="text" name="text_input" size="20" />
+                </label>
+            </fieldset>
+            <fieldset class="form-input">
+                <label>Number here:
+                    <input type="number" name="numerical_input" />
+                </label>
+            </fieldset>
+            <fieldset class="form-input">
+                <label>Password here:
+                    <input type="password" name="password_input" size="20" />
+                </label>
+            </fieldset>
+            <fieldset class="form-input">
+                <p>Select Between:</p>
+                <label><input type="radio" name="candy" value="Snickers" />Snickers</label><br>
+                <label><input type="radio" name="candy" value="Skittles" />Skittles</label><br>
+                <label><input type="radio" name="candy" value="Mentos" />Mentos</label><br><br>
+                <input type="submit" value="Submit" />
+            </fieldset>
+        </fieldset>
+    </form>
+    <br>
+    <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+        <fieldset>
+            <legend>Some POST Data</legend>
+            <fieldset class="form-input">
+                <label>Text here:
+                    <input type="text" name="text_input" size="20" />
+                </label>
+            </fieldset>
+            <fieldset class="form-input">
+                <label>Number here:
+                    <input type="number" name="numerical_input" />
+                </label>
+            </fieldset>
+            <fieldset class="form-input">
+                <label>Password here:
+                    <input type="password" name="password_input" size="20" />
+                </label>
+            </fieldset>
+            <fieldset class="form-input">
+                <p>Select Between:</p>
+                <label><input type="radio" name="candy" value="Snickers" />Snickers</label><br>
+                <label><input type="radio" name="candy" value="Skittles" />Skittles</label><br>
+                <label><input type="radio" name="candy" value="Mentos" />Mentos</label><br><br>
+                <input type="submit" value="Submit" />
+            </fieldset>
+        </fieldset>
+    </form>
+</div>
 
 </body>
 </html>
