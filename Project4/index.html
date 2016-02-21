@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Weather Getter</legend>
+        <label for="zipCode">Zip Code:</label>
+        <input type="text" name="zipCode" id="zipCode">
+        <br/>
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city">
+        <br/>
+        <input type="submit" id="weatherSubmit">
+    </fieldset>
+    <span>Response:</span>
+    <p>City: <span id="cityName"></span></p>
+    <p>Current Temp (in degrees kelvin): <span id="currentTemp"></span></p>
+    <p>Humidity: <span id="humidity"></span></p>
+    <p><span id="weatherError"></span></p>
+</form>
+<form id="httpbinForm">
+    <fieldset>
+        <legend>HttpBin</legend>
+        <textarea name="httpbinInput" form="httpbinForm" id="httpbinInputField"></textarea>
+        <br/>
+        <input type="submit" id="httpbinSubmit"/>
+    </fieldset>
+    <p>Response:</p>
+    <span id="httpbinResponse"></span>
+</form>
+</body>
+<script src="app.js" type="application/javascript"></script>
+<script src="openweather.js" type="application/javascript"></script>
+<script src="httpbin.js" type="application/javascript"></script>
+</html>
